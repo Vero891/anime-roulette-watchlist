@@ -20,6 +20,8 @@ const props = defineProps({
   },
 })
 
+const emit = defineEmits(['add'])
+
 const synopsisExpanded = ref(false)
 
 const animeImage = computed(() => {
